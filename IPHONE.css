@@ -1,0 +1,170 @@
+#btn_add a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    left: 100px;
+    width:180px;
+}
+#btn a {
+    color: black;
+    text-decoration: none;
+}
+.product__list-section {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.nav {
+    display: flex;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.title {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+
+.btn_nav {
+    display: flex;
+    margin-bottom: 20px;
+}
+.add_btn {
+    background-color: #04AA6D;
+    border-radius: 15px;
+    width: 90px;
+    height: 35px;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    padding: top 20px;
+    padding-left: 20px;
+}
+.fix_btn {
+    background-color: #33CCFF;
+    width: 50px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    padding-top: 8px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+.delete_btn {
+    background-color: #33CCFF;
+    width: 55px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    padding-top: 8px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.body_product__list-section {
+    margin: 0 auto;
+    margin-left: 130px;
+    width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.ma_box {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 185px;
+    margin: 2px;
+    padding-right: 30px;
+}
+/*
+.in4_product {
+    margin-top: 20px;
+    margin-left: 25px;
+    flex:1;
+
+
+}*/
+
+.img_product {
+    width: 100%;
+    height: 100%;
+}
+
+.name_product {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none
+}
+
+.item_content_cost {
+    margin-top: 5px;
+    display: flex;
+}
+
+.item_content_current_cost {
+    color: #CA2227;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+.item_content_previous-cost {
+    text-align: left;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    color: grey;
+    margin-top: 5px;
+}
+
+.item_content_discount {
+    background-color: #CA2227;
+    border-color: #CA2227;
+    color: white;
+    border-style: solid;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+/*
+<div class="nav">
+                <div class="ma_box">
+                    <a href="#" class="img_product">
+                        <div class="img_product">
+                            <img src="../Product/img/product_01.jpg" style="height:100% ; width: 100%;">
+                        </div>
+                    </a>
+                </div>
+                <div class="ma_box">
+                    <div class="in4_product">
+                        <a href="#" class="name_product">Tên sách</a>
+                        <div class="item_content_cost">
+                            <div class="item_content_current_cost">500.000 đ</div>
+                            <div class="item_content_discount">-50%</div>
+                        </div>
+                        <div class="item_content_previous-cost">1.000.000</div>
+                        <div class="btn_nav">
+                            <div id="btn" class="fix_btn">
+                                <a href="#">Sửa</a>
+                            </div>
+                            <div id="btn" class="delete_btn">
+                                <a href="#">Xóa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>*/
